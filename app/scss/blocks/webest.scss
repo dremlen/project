@@ -1,0 +1,118 @@
+// Мы лучшие
+.webest {
+  background-image: url(/background/best.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.webest__title {
+  font-family: 'gagalinregular';
+  color: #2f3234;
+  margin-bottom: rem(42px);
+  padding-top: rem(130px);
+}
+
+.webest__list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: rem(150px);
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+}
+
+.webest__item {
+  max-width: rem(300px);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  @media(max-width: 768px){
+    flex-wrap: wrap;
+  }
+  @media(max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+}
+
+.webest__img {
+  margin: 0 auto;
+  margin-bottom: rem(18px);
+  text-align: center;
+}
+.meat{
+  width: rem(100px);
+  height: rem(100px);
+
+  @media(max-width: 480px){
+    width: rem(70px);
+    height: rem(70px);
+  }
+}
+.hand{
+  width: rem(100px);
+  height: rem(100px);
+
+    @media(max-width: 480px) {
+      width: rem(70px);
+      height: rem(70px);
+    }
+
+}
+.natural{
+  width: rem(100px);
+  height: rem(100px);
+
+    @media(max-width: 480px) {
+      width: rem(70px);
+      height: rem(70px);
+    }
+
+}
+
+.webest__section {
+  @media (max-width: 480px) {
+    width: rem(240px);
+    margin-bottom: rem(10px);
+  }
+}
+
+.webest__subtitle {
+  margin: 0 auto;
+  margin-bottom: rem(14px);
+  font-family: 'lifehack';
+  color: #2f3234;
+  line-height: 1.167;
+  width: rem(212px);
+  text-align: center;
+  letter-spacing: -0.08em;
+  font-size: rem(28px);
+
+  @media (max-width: 480px){
+    text-align: start;
+    margin: 0 0 rem(18px) 0;
+  }
+}
+
+.webest__text p {
+  font-family: 'ubuntulight';
+  font-size: rem(14px);
+  line-height: 1.714;
+  text-align: center;
+  color: rgba(47, 50, 52, 0.8);
+
+  @media (max-width: 480px){
+    text-align: start;
+    margin: 0;
+  }
+}
+
+.webest__text3 {
+  margin-top: rem(-8px);
+}

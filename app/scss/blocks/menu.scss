@@ -1,0 +1,66 @@
+.menu{
+  height: 100vh;
+  background: url(/background/menu.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative; 
+}
+.menu__title{
+  font-family: 'gagalinregular';
+  color: #ffffff;
+  position: absolute;
+  top: rem(105px);
+  left: rem(94px);
+
+    @media (max-width: 480px) {
+      z-index: 3;
+    }
+
+}
+.menu__list{
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.menu__item{
+  width: rem(80px);
+  overflow: hidden;
+  display: flex;
+  transition: all 2s;
+}
+.menu__item--active{
+  width: rem(620px);
+}
+.menu__name{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: rem(40px);
+  font-family: 'gagalinregular';
+  padding: rem(22px) rem(13px) 0 rem(13px);
+  color: #ffffff;
+
+    &:last-child{
+      margin-left: rem(-20px);
+    }
+}
+.menu__name1{
+  background: url(../img/elements/menu1.jpg) no-repeat center center;
+  background-size: cover;
+}
+.menu__name2{
+  background: url(../img/elements/menu2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.menu__name3{
+  background: url(../img/elements/menu3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.menu__text{
+  min-width: rem(540px);
+  padding: rem(20px);
+  background-color: rgb(47, 50, 52);
+  opacity: 0.929;
+  color: #ffffff;
+}

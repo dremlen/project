@@ -1,0 +1,28 @@
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+$white:#ffffff;
+
+// brekpoints
+$tablets: 768px;
+$phones: 480px;
+
+
+@import "settings/elements/title.scss";
+@import "settings/mixin.scss";
+@import "settings/font.scss";
+@import "settings/layout.scss";
+@import "blocks/welcome.scss";
+@import "blocks/hamburgerLink.scss";
+@import "blocks/mobail-menu.scss";
+@import "blocks/webest.scss";
+@import "blocks/composition.scss";
+@import "blocks/team.scss";
+@import "blocks/menu.scss";
+@import "blocks/comments.scss";
+@import "blocks/video.scss";
+@import "blocks/forms.scss";
+@import "blocks/pageScroll.scss";
+@import "blocks/modal.scss";
+@import "blocks/map.scss";

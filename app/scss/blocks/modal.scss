@@ -1,0 +1,49 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+ background: rgba(49, 51, 52, 0.92);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.modal__conteiner{
+  width: rem(196px);
+  height: rem(108px);
+  border-radius: 5%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 3s;
+}
+.modal__title{
+  font-family: 'ubuntulight';
+  font-size: rem(14px);
+  line-height: 1.714;
+  text-align: center;
+  color: #2f3234;
+  margin-bottom: rem(10px);
+}
+.modal__btn{
+  width: rem(98px);
+  background: #e45028;
+  border-radius: 5%;
+  color: #fff;
+  font-family: 'ubuntu';
+  font-size: rem(13px);
+  font-style: normal;
+  font-weight: medium;
+  text-transform: uppercase;
+
+    &:hover{
+      background: #e34028;
+    }
+}

@@ -1,0 +1,103 @@
+.map{
+  height: 100vh;
+}
+.map__img{
+  width: 100px;
+  height: 100px;
+}
+.maps{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.footer{
+  background-color: #141414;
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.footer__conteiner{
+  display: flex;
+  width: 960px;
+
+  @media(max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.footer__contact{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin:rem(10px) 0 rem(10px) 0;
+  padding-left: rem(10px);
+
+
+  @media(max-width: 480px) {
+    align-items: center;
+  }
+}
+.footer__adress{
+  font-family: 'ubuntulight';
+  font-weight: lighter;
+  font-size: rem(14px);
+  color: #ffffff;
+
+  @media(max-width: 480px) {
+    justify-content: center;
+    text-align: center;
+  }
+
+}
+.footer__phone{
+  display: flex;
+
+  @media(max-width: 480px) {
+    justify-content: center;
+  }
+}
+.icon__phone{
+  fill: #e45028;
+  width: rem(10px);
+  height: rem(20px);
+}
+.footer__number{
+  font-family: 'ubuntubold';
+  font-weight: bold;
+  font-size: rem(14px);
+  margin-left: rem(5px);
+  color: #e45028;
+}
+.footer__icon{
+  width: 50%;
+}
+.footer__list{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: rem(20px);
+  padding-right: rem(10px);
+
+
+    @media(max-width: 480px) {
+      align-items: center;
+      justify-content: center;
+    }
+
+}
+.footer__item{
+  margin-left: rem(20px);
+}
+.icon__social{
+  fill: #ffffff;
+  width: rem(22px);
+  height: rem(22px);
+  fill-opacity: 0.5;
+
+    &:hover{
+      fill-opacity: 1;
+    }
+}
+
