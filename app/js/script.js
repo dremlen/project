@@ -329,7 +329,7 @@ $(function(){
     if(direction === "down" && nextSection.length){
       performTransition(nextSection.index());
     }
-  };
+  }
 
   $(document).on({
     wheel: function(e){

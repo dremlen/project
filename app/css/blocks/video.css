@@ -1,0 +1,60 @@
+.video {
+  background-image: url(../img/background/BG.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center center;
+  overflow: hidden; }
+
+.video__title {
+  font-family: 'gagalinregular';
+  color: #2f3234;
+  margin-bottom: rem(50px);
+  padding-top: rem(65px); }
+
+.player__wrapper {
+  background-image: url(../img/elements/Photo.jpg);
+  margin: 0 auto;
+  width: rem(660px);
+  height: rem(405px);
+  opacity: 1; }
+
+.player__wrapper--active {
+  opacity: 1; }
+
+.player__controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: rem(660px);
+  height: rem(36px);
+  position: relative;
+  background-color: #3e3e3e;
+  margin: 0 auto; }
+
+.player__start {
+  border-top: rem(20px) solid transparent;
+  border-right: rem(0px) solid transparent;
+  border-bottom: rem(20px) solid #626262;
+  border-left: rem(20px) solid transparent;
+  width: 0;
+  height: 0; }
+
+.paused {
+  border-left: rem(3px) solid #626262;
+  border-right: rem(3px) solid #626262;
+  width: rem(10px);
+  height: rem(20px); }
+
+.player__playback {
+  position: absolute;
+  width: rem(446px);
+  height: rem(8px);
+  background: #626262;
+  top: rem(15px);
+  left: rem(50px); }
+
+.player__playback-button {
+  width: rem(3px);
+  height: rem(10px); }

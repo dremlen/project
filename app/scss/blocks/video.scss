@@ -1,5 +1,5 @@
 .video{
-  background-image: url(/background/BG.jpg);
+  background-image: url(../img/background/BG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -8,25 +8,26 @@
 .video__title {
   font-family: 'gagalinregular';
   color: #2f3234;
-  margin-bottom: rem(42px);
-  padding-top: rem(130px);
+  margin-bottom: rem(50px);
+  padding-top: rem(65px);
 }
 .player__wrapper{
-  background-image: url(/elements/Photo.jpg);
+  background-image: url(../img/elements/Photo.jpg);
   margin: 0 auto;
   width: rem(660px);
   height: rem(405px);
   opacity: 1;
 }
 .player__wrapper--active{
-  opacity: 0;
+  opacity: 1;
 }
-.player__control{
+.player__controls{
   display: flex;
   width: rem(660px);
   height: rem(36px);
   position: relative;
   background-color: #3e3e3e;
+  margin: 0 auto;
 }
 .player__start{
   border-top: rem(20px) solid transparent;
